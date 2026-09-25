@@ -1,5 +1,6 @@
 name: Deploy GitHub Pages
 
+# Deploys the site/ directory to GitHub Pages on every push to main.
 on:
   push:
     branches: [main]
