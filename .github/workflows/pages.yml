@@ -1,6 +1,5 @@
 name: Deploy GitHub Pages
 
-# Deploys the site/ directory to GitHub Pages on every push to main.
 on:
   push:
     branches: [main]
@@ -30,6 +29,8 @@ jobs:
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3
