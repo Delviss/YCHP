@@ -1,0 +1,266 @@
+:root {
+  --gold: #B8804A;
+  --gold-deep: #8C5F35;
+  --gold-light: #C8975C;
+  --navy: #14263D;
+  --ink-70: #3E4E60;
+  --ivory: #F5EDE0;
+  --warm-white: #FAF6EF;
+  --hairline: #E4D9C6;
+  --max-width: 880px;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  background: var(--ivory);
+  color: var(--navy);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  line-height: 1.65;
+  font-size: 17px;
+}
+
+h1, h2, h3, .display {
+  font-family: "Playfair Display", Georgia, serif;
+  color: var(--navy);
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+a { color: var(--gold-deep); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Header */
+header.site {
+  background: var(--navy);
+  border-bottom: 1px solid var(--hairline);
+}
+header.site .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.brand-mark {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--warm-white);
+}
+.brand-mark img { height: 40px; width: 40px; border-radius: 50%; }
+.brand-mark span {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+}
+nav.site a {
+  color: var(--gold-light);
+  margin-left: 22px;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+nav.site a:hover { color: var(--warm-white); }
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 84px 24px 64px;
+}
+.hero img.crest { width: 132px; margin-bottom: 24px; }
+.hero h1 { font-size: 2.6rem; margin: 0 0 14px; }
+.hero p.lede {
+  font-size: 1.2rem;
+  color: var(--ink-70);
+  max-width: 560px;
+  margin: 0 auto 34px;
+  font-style: italic;
+}
+.hero .cta-row {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  padding: 13px 28px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+}
+.btn-primary { background: var(--gold); color: var(--warm-white); }
+.btn-primary:hover { background: var(--gold-deep); text-decoration: none; }
+.btn-outline { border: 1px solid var(--gold); color: var(--gold-deep); }
+.btn-outline:hover { background: rgba(184,128,74,0.08); text-decoration: none; }
+
+/* Cards for index */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 8px 24px 96px;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+@media (max-width: 640px) { .card-grid { grid-template-columns: 1fr; } }
+
+.card {
+  background: var(--warm-white);
+  border: 1px solid var(--hairline);
+  border-radius: 10px;
+  padding: 30px;
+}
+.card h2 { font-size: 1.35rem; margin-top: 0; }
+.card p { color: var(--ink-70); margin-bottom: 18px; }
+.card a.link { font-weight: 600; }
+.card a.link::after { content: " →"; }
+
+/* Page shell (inner pages) */
+main.page {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 56px 24px 100px;
+}
+main.page h1 { font-size: 2.1rem; margin-bottom: 6px; }
+main.page .kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  color: var(--gold-deep);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+main.page .subtitle { color: var(--ink-70); margin-bottom: 40px; font-size: 1.05rem; }
+
+main.page h2 {
+  font-size: 1.5rem;
+  margin-top: 52px;
+  padding-top: 8px;
+  border-top: 1px solid var(--hairline);
+}
+main.page h2:first-of-type { border-top: none; margin-top: 32px; }
+main.page h3 { font-size: 1.15rem; margin-top: 30px; }
+
+main.page blockquote {
+  margin: 28px 0;
+  padding: 20px 24px;
+  background: var(--warm-white);
+  border-left: 4px solid var(--gold);
+  border-radius: 6px;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--navy);
+}
+
+main.page table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0 8px;
+  font-size: 0.95rem;
+}
+main.page th, main.page td {
+  text-align: left;
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--hairline);
+  vertical-align: top;
+}
+main.page th {
+  color: var(--gold-deep);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+main.page ul, main.page ol { padding-left: 22px; }
+main.page li { margin-bottom: 8px; }
+
+main.page code {
+  background: var(--warm-white);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  padding: 1px 6px;
+  font-size: 0.88em;
+}
+
+.note {
+  background: var(--warm-white);
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin: 22px 0;
+  font-size: 0.95rem;
+  color: var(--ink-70);
+}
+
+/* Swatches */
+.swatch-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 18px;
+  margin: 24px 0 8px;
+}
+.swatch {
+  border: 1px solid var(--hairline);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--warm-white);
+}
+.swatch .fill { height: 72px; }
+.swatch .meta { padding: 12px 14px; }
+.swatch .meta .name { font-weight: 600; font-size: 0.92rem; }
+.swatch .meta .hex { font-size: 0.82rem; color: var(--ink-70); font-family: monospace; }
+
+.type-sample {
+  border: 1px solid var(--hairline);
+  border-radius: 10px;
+  padding: 24px;
+  margin: 16px 0;
+  background: var(--warm-white);
+}
+.type-sample .label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  color: var(--gold-deep);
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.type-sample .serif-demo { font-family: "Playfair Display", Georgia, serif; font-size: 2rem; }
+.type-sample .sans-demo { font-family: "Inter", sans-serif; font-size: 1.1rem; }
+
+.crest-frame {
+  text-align: center;
+  margin: 24px 0 32px;
+}
+.crest-frame img {
+  width: 200px;
+  border-radius: 12px;
+  border: 1px solid var(--hairline);
+  background: var(--ivory);
+  padding: 16px;
+}
+
+/* Footer */
+footer.site {
+  border-top: 1px solid var(--hairline);
+  padding: 36px 24px 48px;
+  text-align: center;
+  color: var(--ink-70);
+  font-size: 0.9rem;
+}
+footer.site a { color: var(--gold-deep); }
