@@ -18,10 +18,18 @@ At launch, the heart of the platform is **hotels and other places to stay**. Aro
 
 ## Documentation
 
-| Document | Covers |
+📖 **Read the docs: <https://delviss.github.io/YCHP/>**
+
+The documentation is a [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) site built from [`docs/`](docs/) and organised into six sections:
+
+| Section | Covers |
 |---|---|
-| [Product Vision & Roadmap](docs/product/vision-and-roadmap.md) | What YCHP is, who it's for, what's different, what ships in each phase, and the timeline |
-| [Brand Guidelines](docs/brand/brand-guidelines.md) | Colour palette, typography, logo usage and voice & tone, derived from the YCHP logo |
+| **Home** | Overview, getting started for travellers and property owners |
+| **Platform** | Features, the Savings Wallet & Group Savings (Stokvel), users & access |
+| **Trust & Safety** | Property verification, cancellations & refunds, wallet regulation, legal |
+| **Business** | Market, differentiators, commission, phases, roadmap, decisions, success metrics |
+| **Brand** | Colour, typography, logo, voice & tone, applying the brand |
+| **Development** | How we work, local setup, contributing to the docs |
 
 Two companion documents referenced throughout are maintained separately:
 
@@ -36,14 +44,22 @@ Two companion documents referenced throughout are maintained separately:
 | ⬛ **Navy** `#14263D` | Text, headlines, trust |
 | ⬜ **Ivory** `#F5EDE0` | Primary background |
 
-Full palette, contrast guidance and usage rules in the [Brand Guidelines](docs/brand/brand-guidelines.md).
+Full palette, contrast guidance and usage rules in the [Brand › Colour Palette](docs/brand/colour.md).
 
 ## Repository structure
 
 ```
-docs/
-  product/    Product vision, roadmap and feature scope
-  brand/      Brand identity guidelines
-assets/
-  brand/      Logo and brand imagery
+mkdocs.yml        Site config and navigation
+requirements.txt  Python dependencies for the docs site
+docs/             Documentation pages (Markdown)
+assets/brand/     Logo and brand imagery
 ```
+
+## Run the docs locally
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
+```
+
+Every push to `main` builds the site and deploys it to GitHub Pages.

@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
+
+/* ── Brand tokens (from the YCHP Brand Guidelines) ───────────────────────── */
+:root {
+  --ychp-gold:          #B8804A;
+  --ychp-gold-deep:     #8C5F35;   /* gold text on light — passes AA on Ivory */
+  --ychp-gold-light:    #C8975C;   /* gold on dark surfaces */
+  --ychp-navy:          #14263D;
+  --ychp-ivory:         #F5EDE0;
+  --ychp-warm-white:    #FAF6EF;
+  --ychp-ink-70:        #3E4E60;
+  --ychp-hairline:      #E4D9C6;
+
+  --brand:              var(--ychp-gold-deep);
+  --brand-dark:         var(--ychp-gold-light);
+  --brand-alpha:        rgba(184, 128, 74, 0.10);
+  --brand-alpha-mid:    rgba(184, 128, 74, 0.16);
+  --brand-border:       rgba(184, 128, 74, 0.30);
+}
+
+/* ── Accent override (replaces Material's brown) ─────────────────────────── */
+[data-md-color-accent="brown"] {
+  --md-accent-fg-color:              var(--brand);
+  --md-accent-fg-color--transparent: var(--brand-alpha);
+}
+
+/* ── Surfaces: Warm White canvas + Navy ink (light), Navy canvas (dark) ─── */
+[data-md-color-scheme="default"] {
+  --md-default-bg-color:      var(--ychp-warm-white);
+  --md-default-fg-color:      var(--ychp-navy);
+  --md-typeset-color:         var(--ychp-navy);
+  --md-default-fg-color--light: var(--ychp-ink-70);
+  --md-primary-fg-color:      var(--ychp-warm-white);
+  --md-primary-bg-color:      var(--ychp-navy);
+  --md-footer-bg-color:       var(--ychp-navy);
+}
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color:      #0F1E31;
+  --md-primary-fg-color:      #0F1E31;
+  --md-footer-bg-color:       #0B1726;
+  --md-code-bg-color:         #16283F;
+}
+
+/* ── Link colours ─────────────────────────────────────────────────────────── */
+[data-md-color-scheme="default"] {
+  --md-typeset-a-color: var(--brand);
+}
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color:  var(--brand-dark);
+  --md-accent-fg-color:  var(--brand-dark);
+  --md-accent-fg-color--transparent: rgba(200, 151, 92, 0.14);
+}
+
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  HEADER                                                                   ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+/* Logo: rounded corners + gap from title */
+.md-logo img {
+  height: 36px;
+  width: 36px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.md-header__title {
+  margin-left: 1rem !important;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: -0.01em;
+}
+
+[data-md-color-scheme="default"] .md-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+}
+[data-md-color-scheme="slate"] .md-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  BODY TEXT — small                                                        ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+.md-typeset {
+  font-size: 0.78rem;
+  line-height: 1.75;
+}
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  LAYOUT — reclaim width lost to oversized container padding                ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+@media screen and (min-width: 76.25em) {
+  .md-grid {
+    max-width: 68rem;
+  }
+}
+
+.md-content__inner {
+  padding-top: 0.6rem;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+}
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  HEADINGS — big & gold                                                  ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+.md-typeset h1 {
+  font-family: "Playfair Display", Georgia, serif;
+  color: var(--brand);
+  font-size: 2.4em;
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 1.1;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  border-bottom: none;
+}
+
+.md-typeset h2 {
+  color: var(--brand);
+  font-size: 1.25em;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  border-bottom: 1.5px solid var(--brand-border);
+  padding-bottom: 0.3em;
+  margin-top: 2em;
+}
+
+.md-typeset h3 {
+  font-size: 0.95em;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  /* small gold square accent before h3 */
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.md-typeset h3::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--brand);
+  flex-shrink: 0;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 { color: var(--brand-dark); }
+[data-md-color-scheme="slate"] .md-typeset h2 { color: var(--brand-dark); border-bottom-color: rgba(200,151,92,0.28); }
+[data-md-color-scheme="slate"] .md-typeset h3::before { background: var(--brand-dark); }
+
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  NAVIGATION                                                               ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+/* Section labels */
+.md-nav__title {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-nav__link {
+  font-size: 0.78rem;
+}
+
+.md-nav__link--active {
+  color: var(--brand) !important;
+  font-weight: 600;
+}
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: var(--brand-dark) !important;
+}
+
+/* TOC */
+.md-nav--secondary .md-nav__link {
+  font-size: 0.72rem;
+}
+.md-nav--secondary .md-nav__link--active {
+  color: var(--brand) !important;
+}
+[data-md-color-scheme="slate"] .md-nav--secondary .md-nav__link--active {
+  color: var(--brand-dark) !important;
+}
+
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  TABLES — clean, Pydantic-inspired                                        ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+/* Material's wrapper defaults to inline-block, so it shrink-wraps to the
+   table's natural width instead of filling the content column. Force it
+   to take the full width and let the table's own width:100% take over. */
+.md-typeset__table {
+  display: block;
+  width: 100%;
+}
+.md-typeset__table table:not([class]) {
+  width: 100%;
+}
+
+.md-typeset table:not([class]) {
+  border-collapse: collapse;
+  table-layout: auto;
+  width: 100%;
+  font-size: 0.68rem;
+  line-height: 1.5;
+  border: none;
+  border-top: 2px solid var(--brand);
+}
+
+.md-typeset table:not([class]) thead {
+  background: none !important;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.md-typeset table:not([class]) th {
+  background: none !important;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.5em 0.75em;
+  border: none;
+  white-space: normal;
+}
+
+.md-typeset table:not([class]) td {
+  border: none;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding: 0.5em 0.75em;
+  vertical-align: top;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.md-typeset table:not([class]) th:first-child,
+.md-typeset table:not([class]) td:first-child {
+  padding-left: 0;
+}
+
+.md-typeset table:not([class]) tr:last-child td {
+  border-bottom: none;
+}
+
+/* First column: slightly stronger */
+.md-typeset table:not([class]) td:first-child {
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+}
+
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  SEARCH — styled pill + gold focus ring                                 ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+.md-search__form {
+  border-radius: 8px;
+  border: 1.5px solid rgba(0, 0, 0, 0.12);
+  transition: border-color 0.18s ease, box-shadow 0.18s ease;
+  background: rgba(0, 0, 0, 0.04);
+}
+[data-md-color-scheme="slate"] .md-search__form {
+  border-color: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.md-search__form:focus-within {
+  border-color: var(--brand) !important;
+  box-shadow: 0 0 0 3px var(--brand-alpha);
+}
+
+/* Search results */
+.md-search-result {
+  border-radius: 8px;
+}
+.md-search-result__link:hover,
+.md-search-result__link:focus {
+  background-color: var(--brand-alpha) !important;
+}
+.md-search-result__title {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+.md-search-result__teaser {
+  font-size: 0.72rem;
+  line-height: 1.55;
+}
+.md-search-result__meta {
+  font-size: 0.67rem;
+  color: var(--brand);
+  font-weight: 600;
+}
+
+/* Overlay backdrop: slight blur */
+.md-search__overlay {
+  backdrop-filter: blur(2px);
+}
+
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  ADMONITIONS — YCHP brand (gold)                                   ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+/* Common shape */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 6px;
+  border-left-width: 3px;
+  font-size: 0.78rem;
+}
+
+/* info → brand */
+.md-typeset .admonition.info,
+.md-typeset details.info {
+  border-color: var(--brand);
+}
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary {
+  background-color: var(--brand-alpha);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.md-typeset .info > .admonition-title::before,
+.md-typeset .info > summary::before {
+  background-color: var(--brand);
+  -webkit-mask-image: var(--md-admonition-icon--info);
+          mask-image: var(--md-admonition-icon--info);
+}
+
+/* note → brand */
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-color: var(--brand);
+}
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+  background-color: var(--brand-alpha);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.md-typeset .note > .admonition-title::before,
+.md-typeset .note > summary::before {
+  background-color: var(--brand);
+}
+
+/* tip → brand */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: var(--brand);
+}
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: var(--brand-alpha);
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before {
+  background-color: var(--brand);
+}
+
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  CODE                                                                     ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+.md-typeset code {
+  border-radius: 4px;
+  font-size: 0.82em;
+}
+.md-typeset pre > code {
+  border-radius: 6px;
+  font-size: 0.78rem;
+}
+
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  MERMAID DIAGRAMS — thin brand border, no muddy fill                      ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+.mermaid {
+  display: flex;
+  justify-content: center;
+  overflow-x: auto;
+}
+.mermaid svg {
+  max-width: 100%;
+  height: auto;
+}
+
+[data-md-color-scheme="default"] {
+  --md-mermaid-node-bg-color:  var(--md-default-bg-color);
+  --md-mermaid-node-fg-color:  var(--brand);
+  --md-mermaid-label-bg-color: var(--md-default-bg-color);
+  --md-mermaid-label-fg-color: var(--md-default-fg-color);
+  --md-mermaid-edge-color:     var(--md-default-fg-color--light);
+}
+[data-md-color-scheme="slate"] {
+  --md-mermaid-node-bg-color:  var(--md-default-bg-color);
+  --md-mermaid-node-fg-color:  var(--brand-dark);
+  --md-mermaid-label-bg-color: var(--md-default-bg-color);
+  --md-mermaid-label-fg-color: var(--md-default-fg-color);
+  --md-mermaid-edge-color:     var(--md-default-fg-color--light);
+}
+
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  NAVIGATION TABS — small square pip before each item                      ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+.md-tabs__link {
+  font-size: 0.76rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  opacity: 0.7;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+/* Square pip */
+.md-tabs__link::before {
+  content: "";
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 2px;
+  background: currentColor;
+  opacity: 0.5;
+  flex-shrink: 0;
+}
+
+/* Active tab */
+.md-tabs__link--active,
+.md-tabs__link:is(:focus, :hover) {
+  opacity: 1;
+}
+.md-tabs__link--active::before {
+  background: var(--brand);
+  opacity: 1;
+}
+[data-md-color-scheme="slate"] .md-tabs__link--active::before {
+  background: var(--brand-dark);
+}
+
+/* Tab bar border */
+.md-tabs {
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  DARK / LIGHT TOGGLE                                                      ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+/* Rounded button, slightly larger icon */
+.md-header__button[for^="__palette"] {
+  border-radius: 8px;
+  padding: 0.3rem;
+  transition: background 0.15s ease;
+}
+.md-header__button[for^="__palette"]:hover {
+  background: var(--md-default-fg-color--lightest);
+}
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  FOOTER                                                                   ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+.md-footer {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-footer__link {
+  font-size: 0.75rem;
+}
+.md-copyright{
+  display: none;
+}
+
+/* ╔═══════════════════════════════════════════════════════════════════════════╗
+   ║  YCHP EXTRAS — colour swatches                                            ║
+   ╚═══════════════════════════════════════════════════════════════════════════╝ */
+
+.swatch {
+  display: inline-block;
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: 4px;
+  vertical-align: -0.2em;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
