@@ -1,122 +1,162 @@
-# YCHP Brand Guidelines
+# Yana Brand Guidelines
 
-**Your Curated Holiday Planner** — a travel booking platform that makes a great holiday feel reachable.
+**Yana, by Your Curated Holiday Planner.** Curated travel. A smarter way to save for it.
 
-This guide defines the visual identity derived from the YCHP logo, and the tone of voice the platform should carry across web, mobile and marketing. It is the reference for anyone designing or writing anything that carries the YCHP name.
+This guide defines how Yana should look, feel and sound across web, mobile and marketing. The palette, developer tokens and UI principles come from "Yana – Product Vision & Roadmap", v1.0 (September 2026). Typography and voice carry over from the earlier YCHP guidelines until the final design system is confirmed.
+
+> **What changed:** the earlier gold / navy / ivory palette, which was taken from the YCHP crest, is replaced for the product interface by the **Yana blue palette** below. The crest is now the parent YCHP mark (see Section 5).
 
 ---
 
 ## 1. Brand essence
 
-> YCHP turns "I could never afford that" into "I have been saving, and it is booked."
+> Turn "one day" into "we're going", by helping people discover, save for and book exceptional travel.
 
-YCHP exists for a large, growing group of middle- and upper-class travellers — starting in Africa — who can afford to travel internationally but haven't yet, because travel *feels* out of reach: intimidating, cluttered, aimed at someone else. The brand's job is to make travel feel **curated, warm and achievable**, never sterile or exclusive.
+Yana is built for African travellers first, with global destinations and global ambition. It should feel **contemporary and universal**, not themed around a single country, language or idea of what "Africa" looks like.
 
-Three words guide every design and copy decision:
+**Yana should feel fresh, optimistic and premium, never grandstanding.** It is not a budget travel app. It is a luxury travel platform that gives people a more realistic way to fund and organise exceptional trips, and it must stay accessible enough to use every week while saving.
 
-| Word | What it means in practice |
+| Pillar | What it means in practice |
 |---|---|
-| **Curated** | A considered shortlist, never an overwhelming grid. Quality over quantity everywhere — copy, imagery, layout. |
-| **Warm** | Inviting and human, not cold luxury. The platform should feel like a knowledgeable friend, not a gatekeeper. |
-| **Guided** | Every screen should help someone move from "someday" to "booked" — clear next steps, no dead ends. |
+| **Curated, not cluttered** | A considered set of stays, offers and experiences, never an endless grid. |
+| **Save your way** | Travel as progress over time, not one large, all-at-once expense. |
+| **Travel together** | Group saving that is easy to organise, fund and understand. |
+| **Premium, still welcoming** | Luxury in the experience and design, without feeling exclusive or intimidating. |
 
-Reference points the brand should feel closer to: **Luxury Escapes** (calm, premium, edited). Reference points to actively avoid: **Agoda / Trip.com** (dense, promotional, overwhelming).
+Closer to: **Luxury Escapes** (calm, premium, edited). Actively avoid: **Agoda / Trip.com** (dense, promotional, overwhelming).
 
 ---
 
 ## 2. Colour palette
 
-Colours are extracted directly from the YCHP logo (antique gold monogram and crest on an ivory ground) plus the deep navy used as the brand's supporting ink tone.
+Blue is the signature: bright enough to feel like travel and possibility, grounded by a deeper ocean tone for trust and financial moments.
 
-### Primary
-
-| Swatch | Name | Hex | RGB | Use |
-|---|---|---|---|---|
-| 🟫 | **YCHP Gold** | `#B8804A` | 184, 128, 74 | Logo, icon accents, dividers, decorative moments. The signature brand colour — use with intention, not as a body-text colour. |
-| ⬛ | **YCHP Navy** | `#14263D` | 20, 38, 61 | Primary text colour, headlines, the platform's "trust" colour. Doubles as the dark mode / footer background. |
-| ⬜ | **YCHP Ivory** | `#F5EDE0` | 245, 237, 224 | Primary background. Warm, not stark white — this is what makes the brand feel welcoming rather than clinical. |
-
-### Supporting tints & shades
-
-| Swatch | Name | Hex | Use |
-|---|---|---|---|
-| 🟤 | Gold — Deep | `#8C5F35` | Body copy set in gold (links, small labels), hover/pressed states for gold buttons. Passes AA contrast on Ivory. |
-| 🟡 | Gold — Light | `#C8975C` | Highlights on dark backgrounds, subtle gradients, illustration accents. |
-| ⚪ | Warm White | `#FAF6EF` | Card surfaces sitting on top of Ivory backgrounds; keeps hierarchy without introducing pure white. |
-| ◽ | Ink — 70% | `#3E4E60` | Secondary text, captions, placeholder text on light backgrounds. |
-| ▫️ | Hairline | `#E4D9C6` | Borders, dividers, table lines on Ivory/Warm White surfaces. |
-
-### Usage rules
-
-- **Ivory is the default canvas.** Pure white (`#FFFFFF`) is reserved for photography crops and rare high-contrast UI needs — it should never be the dominant background, or the brand starts reading as a generic booking site.
-- **Navy carries the words.** Body copy, navigation and buttons default to Navy on Ivory — this is what makes the platform feel calm and readable at booking-flow density.
-- **Gold is a spotlight, not a wash.** Use it for the logo, section dividers, icon strokes, badges ("Verified", "Curated Pick"), and primary CTA fills — never as a large body-text colour or a full-bleed background behind long text.
-- **Never** place plain Gold (`#B8804A`) text on Ivory — the contrast ratio (2.9:1) fails accessibility. Use Gold — Deep (`#8C5F35`) instead wherever gold text is needed (4.75:1, passes AA).
-
-### Accessibility reference (WCAG contrast ratios)
-
-| Pairing | Ratio | Passes |
+| Colour | Hex | Primary use |
 |---|---|---|
-| Navy on Ivory | 13.15:1 | AAA (body text) |
-| Navy on White | 15.28:1 | AAA (body text) |
-| Gold — Deep on Ivory | 4.75:1 | AA (body text) |
-| Gold on Navy | 4.53:1 | AA (large text/UI only) |
-| White on Navy | 15.28:1 | AAA (body text) |
-| Gold on Ivory | 2.9:1 | Decorative / large display only |
+| **Yana Blue** | `#18A6C9` | Hero brand colour, highlights, icons, progress |
+| **Yana Blue Deep** | `#0B7E99` | Primary actions where stronger contrast is needed |
+| **Deep Tide** | `#123E52` | Navigation, headings, wallet and trust moments |
+| **Soft Blue** | `#DDF4F8` | Selected states, cards and gentle backgrounds |
+| **Yana Sand** | `#E8D8C3` | Warm secondary accent |
+| **Warm Ivory** | `#FAF8F4` | Primary app background |
+| **Ink** | `#19282E` | Primary text |
+| **Slate** | `#66777D` | Secondary text |
+| **Mist** | `#E5EBED` | Borders, dividers and disabled states |
+
+### How the palette should behave
+
+- **Light interface first.** Warm Ivory and white dominate the canvas.
+- **Blue punctuates, it doesn't flood.** Yana Blue creates recognition and optimism; don't use it on every surface.
+- **Deep Tide carries trust.** Headings, navigation and wallet moments.
+- **Sand supports.** It is a secondary accent, not a second hero colour.
+
+### Developer colour tokens
+
+| Token | Value |
+|---|---|
+| `brand.primary` | `#18A6C9` |
+| `brand.primaryStrong` | `#0B7E99` |
+| `brand.deep` | `#123E52` |
+| `brand.tint` | `#DDF4F8` |
+| `brand.sand` | `#E8D8C3` |
+| `surface.background` | `#FAF8F4` |
+| `surface.card` | `#FFFFFF` |
+| `text.primary` | `#19282E` |
+| `text.secondary` | `#66777D` |
+| `border.default` | `#E5EBED` |
+| `state.success` | `#328267` |
+| `state.warning` | `#C98935` |
+| `state.error` | `#C65353` |
+
+### Accessibility reference (WCAG 2.1 contrast ratios)
+
+Use Yana Blue mainly as a brand and accent colour. For small white text on buttons, use **Yana Blue Deep** or **Deep Tide**.
+
+| Pairing | Ratio | Result |
+|---|---|---|
+| Ink on Warm Ivory | 14.30:1 | AAA, body text |
+| Ink on White | 15.17:1 | AAA, body text |
+| White on Deep Tide | 11.43:1 | AAA, body text |
+| Deep Tide on Warm Ivory | 10.78:1 | AAA, body text |
+| Deep Tide on Soft Blue | 10.00:1 | AAA, body text |
+| Ink on Yana Sand | 10.87:1 | AAA, body text |
+| White on Yana Blue Deep | 4.71:1 | AA, body text and buttons |
+| Slate on White | 4.67:1 | AA, body text |
+| White on `state.success` | 4.64:1 | AA, body text |
+| Yana Blue Deep on Warm Ivory | 4.44:1 | AA large text / UI only. On white cards it rises to 4.71:1 |
+| White on `state.error` | 4.41:1 | AA large text / UI only |
+| Slate on Warm Ivory | 4.40:1 | AA large text / UI only. Prefer Slate on white cards for small text |
+| White on Yana Blue | 2.86:1 | Decorative or large display only, never small text |
+| Yana Blue on Warm Ivory | 2.70:1 | Icons, progress and decoration only |
+| White on `state.warning` | 2.95:1 | Avoid. Use Ink text on warning fills |
 
 ---
 
-## 3. Typography
+## 3. UI principles
 
-The logo's crest lettering is a refined serif with high contrast strokes — that heritage, trustworthy feel should carry into headings. Body copy needs to stay highly legible across dense booking flows on small screens, so it switches to a clean humanist sans.
+| Principle | In practice |
+|---|---|
+| **Calm by default** | Generous white space, strong photography, restrained promotional density. |
+| **Progress feels good** | Wallet states celebrate momentum without gamifying people's finances. |
+| **Luxury is in the edit** | Fewer, better options. Avoid visual noise and false urgency. |
+| **Human language** | Plain, warm copy. No banking jargon unless legally required. |
 
-| Role | Style direction | Example web-safe pairing |
+**The wallet rule:** the wallet should feel motivating, not like internet banking. Progress, destination imagery and trip milestones should carry as much visual weight as balances.
+
+**Merchandising rule:** destination-based and retargeted promotions should feel editorial and relevant. Advertising can exist inside Yana, but it should never make the interface feel like a discount marketplace.
+
+---
+
+## 4. Typography
+
+*Carried over from the earlier YCHP guidelines; to be confirmed with the final design system.*
+
+| Role | Style direction | Example pairing |
 |---|---|---|
-| **Display / Headings** | Elegant, high-contrast serif — the same register as the logotype. Used for hero moments, property names, section titles. | *Playfair Display*, *Canela*, or *Cormorant* |
-| **Body / UI** | Warm, humanist sans-serif. Optimised for prices, filters, forms, dashboards — must stay legible at small sizes on mobile. | *Inter*, *Söhne*, or *Avenir Next* |
-| **Numerals / Prices** | Tabular figures from the body typeface, medium weight, Navy — prices must never compete visually with Gold accents. | Inter (tabular lining figures) |
+| **Display / headings** | Elegant, high-contrast serif for hero moments, property names and collection titles. | *Playfair Display*, *Canela* or *Cormorant* |
+| **Body / UI** | Clean humanist sans, legible at small sizes on mobile for prices, filters, forms and dashboards. | *Inter*, *Söhne* or *Avenir Next* |
+| **Numerals / prices** | Tabular figures from the body typeface, medium weight, Ink or Deep Tide. | Inter (tabular lining figures) |
 
 **Rule of thumb:** if it's a decision point (a price, a date, a button label) it's set in the sans. If it's setting a mood (a hero headline, a curated collection title) it can use the serif.
 
 ---
 
-## 4. Logo
+## 5. Logo
+
+### Yana mark
+
+A dedicated Yana logo has not been supplied yet. Until it is, set **Yana** as a wordmark in Deep Tide or Ink, with the endorsement line *by Your Curated Holiday Planner* beneath it in Slate.
+
+### YCHP parent mark
 
 ![YCHP logo](../../assets/brand/logo.jpg)
 
-The mark is a monogram of **Y · C · H** set inside a crest, topped with a crown and finished with a small aircraft silhouette — crown for aspiration, aircraft for travel, monogram for the personal, curated feel. Below it, the wordmark **YOUR CURATED HOLIDAY PLANNER** with the **HOLIDAY PLANNER** tag set in tracked-out small caps.
+The YCHP crest (a Y · C · H monogram with a crown and a small aircraft) is the parent company mark. Its gold and ivory colours belong to the crest artwork only and are not part of the Yana interface palette.
 
-### Usage
-
-- **Clear space:** keep a margin around the mark equal to the height of the crown on all sides — never let UI chrome, photography or text touch the crest.
-- **Minimum size:** the full lock-up (crest + wordmark) should not run smaller than 120px wide on screen, or 25mm in print. Below that, use the crest mark alone.
-- **Backgrounds:** the full-colour gold-on-ivory lock-up is the default. On dark (Navy) surfaces, use a reversed version: ivory/white crest and wordmark. Never place the gold mark on a busy photograph without a solid or scrim behind it.
-- **Don't:**
-  - Don't recolour the crest outside the Gold/Navy/Ivory system.
-  - Don't stretch, skew, or add drop shadows/outer glows beyond what's in the source mark.
-  - Don't set the wordmark in a different typeface than the source lock-up.
-  - Don't crowd the mark with competing badges, ribbons or promotional stickers.
+- **Clear space:** keep a margin around the crest equal to the height of the crown on all sides.
+- **Minimum size:** 120px wide on screen, or 25mm in print, for the full lock-up. Below that, use the crest alone.
+- **Backgrounds:** use the crest on Warm Ivory or white. On Deep Tide, use a reversed ivory/white version. Never place it on a busy photograph without a solid or scrim behind it.
+- **Don't** recolour, stretch, skew or add effects to the crest, or crowd it with badges and promotional stickers.
 
 ---
 
-## 5. Voice & tone
+## 6. Voice and tone
 
-The Product Vision document itself is written in plain, warm, jargon-free language — that's deliberate, and the product's voice should match:
-
-- **Plain over clever.** Say what something does in the fewest natural words. No travel-industry jargon, no forced excitement.
-- **Encouraging, never patronising.** The audience is confident and capable — they simply haven't booked *this kind* of trip before. Copy should build confidence, not oversimplify.
-- **Show the path, not just the destination.** Because the core emotional job is turning "someday" into "booked," copy should always make the next step obvious — "Start saving," "See your curated stays," "3 payments left."
-- **Calm, not urgent.** Avoid countdown-timer, "only 2 rooms left" pressure tactics that feel like the cluttered sites YCHP is deliberately not.
-- **Two launch languages:** English and French, with local currency display (South African Rand and US Dollar required at minimum) — copy should be written for straightforward, accurate translation, avoiding idiom-heavy phrasing.
+- **Plain over clever.** Say what something does in the fewest natural words. No travel-industry or banking jargon.
+- **Encouraging, never patronising.** The audience is capable; they simply haven't booked *this kind* of trip before.
+- **Show the path.** Make the next step obvious: "Start saving", "See your curated stays", "3 payments left".
+- **Calm, not urgent.** No countdown timers or "only 2 rooms left" pressure.
+- **Universal, not themed.** Avoid clichés about any single country or about "Africa".
+- **Written for translation.** English and French from day one, so avoid idiom-heavy phrasing. Prices show in local currency, with USD and ZAR required.
 
 ---
 
-## 6. Applying the brand across the product
+## 7. Applying the brand across the product
 
 | Surface | Notes |
 |---|---|
-| **Marketing site & app onboarding** | Full expression of the brand — Ivory canvas, serif headlines, gold crest, aspirational but approachable photography (real people, real trips — not stock luxury clichés). |
-| **Search & booking flow** | Brand recedes in favour of clarity — Navy text on Ivory/Warm White, Gold reserved for CTAs and "Curated Pick" badges, generous white(ivory)space so results never feel like a dense list. |
-| **Wallet / Group Savings ("Stokvel")** | Warmest expression of the brand — this is the emotional core of the product. Progress bars, contribution avatars and milestones can use Gold generously here to celebrate progress. |
-| **Property owner dashboard & admin** | Utility-first — Navy/Ink text on Warm White cards, Gold used sparingly for status and verification badges only. |
-| **Retargeting / destination ads** | Keep the calm, curated feel even in performance marketing — avoid cluttered ad templates; let one destination or deal breathe per creative. |
+| **Marketing site and onboarding** | Fullest expression: Warm Ivory canvas, serif headlines, Yana Blue highlights, aspirational but approachable photography of real people and real trips. |
+| **Search and booking** | Brand recedes in favour of clarity: Ink on Warm Ivory and white cards, Yana Blue Deep for primary actions, generous space so results never feel like a dense list. |
+| **Wallet and Group Saving** | The emotional core. Deep Tide for trust moments, Yana Blue for progress bars and milestones, destination imagery given as much weight as balances. |
+| **Partner dashboard and admin** | Utility first: Ink and Slate on white cards, Mist borders, state colours for status, blue used sparingly. |
+| **Retargeting and destination ads** | Editorial, not promotional. One destination or deal per creative. |

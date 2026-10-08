@@ -1,42 +1,47 @@
 <p align="center">
-  <img src="assets/brand/logo.jpg" alt="YCHP — Your Curated Holiday Planner" width="220">
+  <img src="assets/brand/logo.jpg" alt="YCHP — Your Curated Holiday Planner" width="180">
 </p>
 
-<h1 align="center">Your Curated Holiday Planner (YCHP)</h1>
+<h1 align="center">Yana</h1>
 
 <p align="center">
-  <em>YCHP turns "I could never afford that" into "I have been saving, and it is booked."</em>
+  <strong>by Your Curated Holiday Planner</strong><br>
+  <em>Curated travel. A smarter way to save for it.</em>
 </p>
 
 ---
 
-## What YCHP is
+## What Yana is
 
-YCHP is a travel booking platform that makes a great holiday feel reachable. Instead of a long, cluttered list of rooms, YCHP hand-picks stays and deals, lets people save toward a trip over time, and guides travellers from the first idea to a confirmed booking.
+Yana is a curated travel platform designed to make exceptional holidays feel achievable, not intimidating. It combines selected luxury stays and experiences with a built-in wallet that lets people save toward travel over time, on their own or together with family and friends.
 
-At launch, the heart of the platform is **hotels and other places to stay**. Around that core, YCHP adds three things ordinary booking sites don't offer together: curated (not overwhelming) choices, deals beyond the room — dining, spa, activities — and a built-in savings wallet, usable alone or as a group.
+It launches with five tabs: **Hotels · Deals · Curation · Experiences · Wallet** (personal and group saving). Flights, car hire and an AI travel assistant follow once the launch foundation is stable.
+
+> **The Yana promise:** turn "one day" into "we're going".
 
 ## Documentation
 
 | Document | Covers |
 |---|---|
-| [Product Vision & Roadmap](docs/product/vision-and-roadmap.md) | What YCHP is, who it's for, what's different, what ships in each phase, and the timeline |
-| [Brand Guidelines](docs/brand/brand-guidelines.md) | Colour palette, typography, logo usage and voice & tone, derived from the YCHP logo |
+| [Product Vision & Roadmap](docs/product/vision-and-roadmap.md) | The vision, the problem, the product journey, the Yana Wallet, supply and commercial model, phased roadmap, delivery plan and open decisions |
+| [Brand Guidelines](docs/brand/brand-guidelines.md) | The Yana blue palette, developer colour tokens, contrast guidance, UI principles, typography, logo use and voice |
 
-Two companion documents referenced throughout are maintained separately:
+The same documents are published as a small site from [`site/`](site/) via GitHub Pages.
 
-- **Product Requirements Document** — every feature described in full, for the whole team.
-- **Technical Requirements Document** — the build approach for web and mobile.
+Two companion documents are maintained separately:
+
+- **Product Requirements Document**: every feature described in full.
+- **Technical Requirements Document**: the build approach for web and mobile.
 
 ## Brand at a glance
 
 | | |
 |---|---|
-| 🟫 **Gold** `#B8804A` | Logo, accents, badges |
-| ⬛ **Navy** `#14263D` | Text, headlines, trust |
-| ⬜ **Ivory** `#F5EDE0` | Primary background |
+| **Yana Blue** `#18A6C9` | Hero brand colour, highlights, progress |
+| **Deep Tide** `#123E52` | Navigation, headings, wallet and trust |
+| **Warm Ivory** `#FAF8F4` | Primary app background |
 
-Full palette, contrast guidance and usage rules in the [Brand Guidelines](docs/brand/brand-guidelines.md).
+Full palette, tokens and usage rules are in the [Brand Guidelines](docs/brand/brand-guidelines.md).
 
 ## Repository structure
 
@@ -46,4 +51,5 @@ docs/
   brand/      Brand identity guidelines
 assets/
   brand/      Logo and brand imagery
+site/         GitHub Pages version of the docs
 ```
