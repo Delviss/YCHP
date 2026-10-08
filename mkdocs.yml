@@ -1,0 +1,110 @@
+site_name: Yana Docs
+site_description: Documentation for Yana, by Your Curated Holiday Planner
+site_author: YCHP
+site_url: https://delviss.github.io/YCHP/
+repo_url: https://github.com/Delviss/YCHP
+repo_name: Delviss/YCHP
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: white
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  logo: assets/logo.jpg
+  favicon: assets/logo.jpg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home:
+      - Overview: index.md
+      - For Travellers: getting-started/travellers.md
+      - For Property Owners: getting-started/property-owners.md
+  - Platform:
+      - Features:
+          - Launch Tabs: features/launch-tabs.md
+          - Search & Discovery: features/search-discovery.md
+          - Property Pages: features/property-pages.md
+          - Booking & Payments: features/booking-payments.md
+          - Deals & Experiences: features/deals-experiences.md
+          - Curation: features/curation.md
+          - Messaging, Reviews & Notifications: features/messaging-reviews.md
+          - Coming After Launch: features/coming-after-launch.md
+      - Wallet:
+          - Overview: wallet/index.md
+          - Group Saving: wallet/group-savings.md
+      - Users & Access:
+          - Overview: users-access/index.md
+          - Property Owner Dashboard: users-access/property-owners.md
+          - Yana Admin: users-access/admin.md
+  - Trust & Safety:
+      - Property Verification: trust-verification.md
+      - Cancellations & Refunds: cancellations.md
+      - Wallet Regulation: wallet-regulation.md
+      - Legal: legal.md
+  - Business:
+      - Market & Opportunity: market.md
+      - What Makes Yana Different: differentiators.md
+      - Commission & Payments: commission.md
+      - Phases: phases.md
+      - Roadmap: roadmap.md
+      - Open Points & Decisions: decisions.md
+      - What YCHP Provides: dependencies.md
+      - Success Metrics: metrics.md
+  - Brand:
+      - Brand Essence: brand/index.md
+      - Colour Palette: brand/colour.md
+      - UI Principles: brand/ui-principles.md
+      - Typography: brand/typography.md
+      - Logo: brand/logo.md
+      - Voice & Tone: brand/voice-tone.md
+      - Applying the Brand: brand/applying.md
+  - Development:
+      - How We Work: development/how-we-work.md
+      - Local Setup: development/local-setup.md
+      - Contributing to the Docs: development/contributing.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
