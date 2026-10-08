@@ -1,5 +1,5 @@
-site_name: YCHP Docs
-site_description: Documentation for YCHP — Your Curated Holiday Planner
+site_name: Yana Docs
+site_description: Documentation for Yana, by Your Curated Holiday Planner
 site_author: YCHP
 site_url: https://delviss.github.io/YCHP/
 repo_url: https://github.com/Delviss/YCHP
@@ -12,14 +12,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: white
-      accent: brown
+      accent: cyan
       toggle:
         icon: material/weather-night
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: black
-      accent: brown
+      accent: cyan
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -58,11 +58,11 @@ nav:
           - Coming After Launch: features/coming-after-launch.md
       - Wallet:
           - Overview: wallet/index.md
-          - Group Savings (Stokvel): wallet/group-savings.md
+          - Group Saving: wallet/group-savings.md
       - Users & Access:
           - Overview: users-access/index.md
           - Property Owner Dashboard: users-access/property-owners.md
-          - YCHP Admin: users-access/admin.md
+          - Yana Admin: users-access/admin.md
   - Trust & Safety:
       - Property Verification: trust-verification.md
       - Cancellations & Refunds: cancellations.md
@@ -70,7 +70,7 @@ nav:
       - Legal: legal.md
   - Business:
       - Market & Opportunity: market.md
-      - What Makes YCHP Different: differentiators.md
+      - What Makes Yana Different: differentiators.md
       - Commission & Payments: commission.md
       - Phases: phases.md
       - Roadmap: roadmap.md
@@ -80,6 +80,7 @@ nav:
   - Brand:
       - Brand Essence: brand/index.md
       - Colour Palette: brand/colour.md
+      - UI Principles: brand/ui-principles.md
       - Typography: brand/typography.md
       - Logo: brand/logo.md
       - Voice & Tone: brand/voice-tone.md

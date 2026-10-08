@@ -11,7 +11,7 @@ Cancellations, refunds and invoices are part of the **Phase 1** launch.
 
 ---
 
-## For the YCHP Team
+## For the Yana Team
 
 The team manages **payments, refunds and disputes** from the [admin area](users-access/admin.md).
 

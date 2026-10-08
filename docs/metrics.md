@@ -1,13 +1,14 @@
 # Success Metrics
 
-YCHP is doing its job when:
+Yana is doing its job when:
 
 ---
 
 | Outcome | What it looks like |
 |---|---|
-| **First-time travellers book with confidence** | A first-time traveller can go from idea to a confirmed, paid booking without feeling lost or intimidated |
-| **People save and come back** | People are saving toward trips in the wallet, alone and in groups, and coming back |
-| **Owners see value** | Property owners find the platform simple and see real bookings |
-| **It feels premium** | The platform feels calm and premium, the way Luxury Escapes does, clearly not like the cluttered sites it deliberately avoids |
-| **The team is in control** | The team can run the whole operation (money, quality and support) from the admin area with confidence |
+| **Travellers book with confidence** | A traveller can go from inspiration to a confirmed booking without feeling lost or overwhelmed |
+| **People keep coming back** | People return to Yana because their wallet and group trips give them a reason to keep planning between bookings |
+| **Group saving replaces spreadsheets** | Group contributions are clear enough that families and friends no longer need separate spreadsheets or informal tracking |
+| **Partners see value** | Property partners see real bookings and can manage availability, promotions and payouts without heavy support |
+| **It feels premium, not distant** | The platform feels calm and premium, but not distant, formal or intimidating |
+| **The identity scales** | Yana can grow beyond the first launch markets without changing its core identity |

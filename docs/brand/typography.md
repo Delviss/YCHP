@@ -1,6 +1,8 @@
 # Typography
 
-The logo's crest lettering is a refined serif with high-contrast strokes. That heritage, trustworthy feel should carry into headings. Body copy needs to stay highly legible across dense booking flows on small screens, so it switches to a clean humanist sans.
+*Carried over from the earlier YCHP guidelines; to be confirmed with the final design system.*
+
+Headings use an elegant serif for the calm of a luxury travel brand. Body copy needs to stay highly legible across dense booking flows on small screens, so it switches to a clean humanist sans.
 
 ---
 
@@ -8,9 +10,9 @@ The logo's crest lettering is a refined serif with high-contrast strokes. That h
 
 | Role | Style direction | Example web-safe pairing |
 |---|---|---|
-| **Display / Headings** | Elegant, high-contrast serif, the same register as the logotype. Used for hero moments, property names, section titles | *Playfair Display*, *Canela*, or *Cormorant* |
+| **Display / Headings** | Elegant, high-contrast serif. Used for hero moments, property names, section titles | *Playfair Display*, *Canela*, or *Cormorant* |
 | **Body / UI** | Warm, humanist sans-serif. Optimised for prices, filters, forms, dashboards; must stay legible at small sizes on mobile | *Inter*, *Söhne*, or *Avenir Next* |
-| **Numerals / Prices** | Tabular figures from the body typeface, medium weight, Navy. Prices must never compete visually with Gold accents | Inter (tabular lining figures) |
+| **Numerals / Prices** | Tabular figures from the body typeface, medium weight, Ink or Deep Tide. Prices must never compete visually with blue accents | Inter (tabular lining figures) |
 
 ---
 

@@ -1,6 +1,6 @@
 # Search & Discovery
 
-Every search on YCHP leads to a **considered set of options, not an endless list**.
+Every search on Yana leads to a **considered set of options, not an endless list**.
 
 ---
 
@@ -49,7 +49,7 @@ Each result is clear and complete:
 | **Extras** | e.g. free airport transfers |
 
 !!! note "Curated, not cluttered"
-    Generous space and a calm layout ensure results never feel like a dense list. Gold is reserved for calls to action and **Curated Pick** badges. See [Applying the Brand](../brand/applying.md).
+    Generous space and a calm layout ensure results never feel like a dense list. Yana Blue Deep is used for primary actions, and blue punctuates rather than floods the results. See [Applying the Brand](../brand/applying.md).
 
 ---
 

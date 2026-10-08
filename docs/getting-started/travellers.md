@@ -1,6 +1,6 @@
 # For Travellers
 
-YCHP is designed so a first-time traveller can go from an idea to a confirmed, paid booking **without feeling lost or intimidated**.
+Yana is designed so a first-time traveller can go from an idea to a confirmed, paid booking **without feeling lost or intimidated**.
 
 ---
 

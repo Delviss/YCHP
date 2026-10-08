@@ -20,4 +20,4 @@ Property owners work from a **clear dashboard** covering their listings, booking
 
 ## Design
 
-The dashboard is **utility-first**: Navy/Ink text on Warm White cards, with Gold used sparingly for status and verification badges only. See [Applying the Brand](../brand/applying.md).
+The dashboard is **utility-first**: Ink and Slate text on white cards, Mist borders, state colours for status, and blue used sparingly. See [Applying the Brand](../brand/applying.md).

@@ -1,6 +1,6 @@
-# Group Savings (Stokvel)
+# Group Saving
 
-A group can **save together toward one trip**, in the spirit of a **stokvel**. This is a strong fit for the audience and something mainstream booking sites don't offer.
+Friends or family **save together toward one trip**, in the spirit of a **stokvel**. It is a defining differentiator and something mainstream booking sites don't offer.
 
 ---
 
@@ -8,28 +8,29 @@ A group can **save together toward one trip**, in the spirit of a **stokvel**. T
 
 ```mermaid
 flowchart LR
-    A[Create a group trip] --> B[Invite family or friends]
-    B --> C[Cost splits automatically]
-    C --> D[Each member saves their share]
-    D --> E[Everyone sees progress]
-    E --> F[Trip is booked]
+    A[Create or join a group trip] --> B[Set the target and contribution split]
+    B --> C[Members contribute their share]
+    C --> D[Individual and group progress in real time]
+    D --> E[Funded goal becomes a booking]
 ```
 
-The model follows a **Tricount-style split**: when multiple people save toward one trip,
+The flow borrows the transparency of cost-splitting tools such as **Tricount** while remaining clearly Yana. Each member understands the **total trip goal, their share, what they have contributed and what remains**.
 
-- the cost **splits automatically**;
-- everyone can see **how much they need to save**;
-- everyone can see **how much each person has contributed**.
+- Create or join a group trip.
+- Set the trip target and contribution split.
+- See individual and group progress in real time.
+- Send reminders and contribution notifications **without exposing unnecessary financial information**.
+- Move from funded goal to booking **without repeating the planning process**.
 
 ---
 
 ## Timing
 
-!!! info "Phase 2, possibly Phase 1"
-    Group Savings is planned for **Phase 2**. It has been flagged as a strong selling point, ideally in Phase 1; timing is to be confirmed if it stays in Phase 2.
+!!! info "Phase 1"
+    Group Saving is treated as a **Phase 1** launch feature unless a technical or legal dependency makes that impossible. The launch trial cohort tests group contributions before public launch. See [Roadmap](../roadmap.md).
 
 ---
 
 ## Oversight
 
-The YCHP team oversees the wallet and group savings ("Stokvel") area from the [admin area](../users-access/admin.md). Regulatory requirements are handled with FNB. See [Wallet Regulation](../wallet-regulation.md).
+The Yana team oversees the wallet and group saving area from the [admin area](../users-access/admin.md). Regulatory requirements are handled with a licensed financial partner (current direction: FNB). See [Wallet Regulation](../wallet-regulation.md).

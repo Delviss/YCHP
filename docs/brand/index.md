@@ -1,27 +1,33 @@
 # Brand Essence
 
-**Your Curated Holiday Planner**: a travel booking platform that makes a great holiday feel reachable.
+**Yana, by Your Curated Holiday Planner.** Curated travel. A smarter way to save for it.
 
-This section defines the visual identity derived from the YCHP logo, and the tone of voice the platform should carry across web, mobile and marketing. It is the reference for anyone designing or writing anything that carries the YCHP name.
+This section defines how Yana looks, feels and sounds across web, mobile and marketing. The palette, colour tokens and UI principles come from the September 2026 vision; typography and voice carry over until the final design system is confirmed.
 
 !!! quote ""
-    YCHP turns *"I could never afford that"* into *"I have been saving, and it is booked."*
+    Turn *"one day"* into *"we're going"*.
+
+!!! info "What changed"
+    The earlier gold / navy / ivory palette, taken from the YCHP crest, is replaced for the product interface by the **Yana blue palette**. The crest is now the parent YCHP mark. See [Logo](logo.md).
 
 ---
 
-## Who the Brand Serves
+## Fresh, Optimistic, Premium
 
-YCHP exists for a large, growing group of middle- and upper-class travellers (starting in Africa) who can afford to travel internationally but haven't yet, because travel *feels* out of reach: intimidating, cluttered, aimed at someone else. The brand's job is to make travel feel **curated, warm and achievable**, never sterile or exclusive.
+**Yana should feel fresh, optimistic and premium, never grandstanding.** The interface carries the calm of a luxury travel brand, but must stay accessible enough to use every week while saving.
+
+Yana is built for African travellers first, with global destinations. It should feel **contemporary and universal**, not themed around a single country, language or idea of what "Africa" looks like.
 
 ---
 
-## Three Guiding Words
+## Four Pillars
 
-| Word | What it means in practice |
+| Pillar | What it means in practice |
 |---|---|
-| **Curated** | A considered shortlist, never an overwhelming grid. Quality over quantity everywhere: copy, imagery, layout |
-| **Warm** | Inviting and human, not cold luxury. The platform should feel like a knowledgeable friend, not a gatekeeper |
-| **Guided** | Every screen should help someone move from "someday" to "booked": clear next steps, no dead ends |
+| **Curated, not cluttered** | A considered set of stays, offers and experiences, never an endless grid |
+| **Save your way** | Travel as progress over time, not one large, all-at-once expense |
+| **Travel together** | Group saving that is easy to organise, fund and understand |
+| **Premium, still welcoming** | Luxury in the experience and design, without feeling exclusive or intimidating |
 
 ---
 
@@ -37,8 +43,8 @@ YCHP exists for a large, growing group of middle- and upper-class travellers (st
 
 | | Name | Hex | Use |
 |---|---|---|---|
-| <span class="swatch" style="background:#B8804A"></span> | **Gold** | `#B8804A` | Logo, accents, badges |
-| <span class="swatch" style="background:#14263D"></span> | **Navy** | `#14263D` | Text, headlines, trust |
-| <span class="swatch" style="background:#F5EDE0"></span> | **Ivory** | `#F5EDE0` | Primary background |
+| <span class="swatch" style="background:#18A6C9"></span> | **Yana Blue** | `#18A6C9` | Hero brand colour, highlights, progress |
+| <span class="swatch" style="background:#123E52"></span> | **Deep Tide** | `#123E52` | Navigation, headings, wallet and trust |
+| <span class="swatch" style="background:#FAF8F4"></span> | **Warm Ivory** | `#FAF8F4` | Primary app background |
 
-Continue with [Colour Palette](colour.md), [Typography](typography.md), [Logo](logo.md), [Voice & Tone](voice-tone.md) and [Applying the Brand](applying.md).
+Continue with [Colour Palette](colour.md), [UI Principles](ui-principles.md), [Typography](typography.md), [Logo](logo.md), [Voice & Tone](voice-tone.md) and [Applying the Brand](applying.md).

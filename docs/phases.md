@@ -1,39 +1,49 @@
 # Phases
 
-The team would rather **move the launch date than launch with important features missing**. Work is grouped into three phases: **Phase 1 is a complete, working platform on its own**; Phases 2 and 3 add to it.
+**Launch the product people will remember Yana for, then widen the ecosystem.** The roadmap protects the launch date without cutting the features that create Yana's identity. Curation and the wallet are not "nice to have" features.
 
 ---
 
-## Phase 1 — Launch
+## Phase 1 · Launch — Yana core
 
-A complete place-to-stay marketplace, working end to end on **website, iPhone and Android**:
+Working end to end on **website, iPhone and Android**:
 
-- Accounts for travellers, property owners and the YCHP team
-- Search, filters, map, property pages, rooms, availability and pricing
-- Booking, payments, invoices, cancellations and refunds
-- Reviews, messaging, notifications and the property dashboard
-- Property verification, promotions and the admin area
-- The individual Savings Wallet, and curated deals presented by the YCHP team
+- Accounts
+- Hotels, Deals, Curation and Experiences
+- Personal Wallet **and Group Saving**
+- Property pages, search and filters
+- Booking, payments, cancellations and refunds
+- Reviews, messaging and notifications
+- Partner dashboard, verification, admin and promotions
 
----
-
-## Phase 2 — Soon After Launch
-
-- **Group Savings (Stokvel)**: saving toward one trip as a family or group. *(Flagged as a strong selling point, ideally in Phase 1; timing to be confirmed if it stays in Phase 2.)*
-- **AI travel assistant** for guided, curated planning, with the ability to know its user and learn from them across future trips and interactions
-- **Flights**, shown in the Skyscanner style, linking out to the airline or agent
-- **Activities and attractions**
+!!! warning "Group Saving at launch"
+    Group Saving is treated as **Phase 1** unless a technical or legal dependency makes that impossible. It is a defining differentiator, not a peripheral feature.
 
 ---
 
-## Phase 3 — Growth
+## Phase 2 · Expand — Planning + discovery
+
+- **AI travel assistant** with user memory and preferences
+- **Flights** shown in a Skyscanner-style comparison flow, linked out to the airline or agent
+- **Deeper activity inventory**
+- **Smarter destination recommendations**
+
+---
+
+## Phase 3 · Grow — Broader travel ecosystem
 
 - Car hire
-- Wider range of homes and apartments
+- Cruises
+- Gift cards
+- More homes and apartments
 - More markets, currencies and languages
+- **Buy now, choose dates later**, once partner and legal mechanics are confirmed
 
 ---
 
-## Why Phase It This Way
+## Why the Phases Are Sequenced This Way
 
-Launching the stays marketplace first gets YCHP **earning and learning from real travellers quickly**. Flights, activities and the AI assistant are valuable, but depend on the core being solid first. Phasing protects both **quality** and the **launch date**.
+Phase 1 establishes the product people will associate with Yana: **curated travel plus a practical way to fund it**. Phase 2 deepens planning and discovery once that core journey is stable. Phase 3 broadens the ecosystem only after the commercial and partner mechanics are proven.
+
+!!! tip "Launch priority"
+    If a feature must move to protect timing, protect **Hotels, Deals, Experiences, Curation and both wallet modes** first. Those are the product identity.

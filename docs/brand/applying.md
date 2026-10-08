@@ -6,11 +6,11 @@ How strongly the brand is expressed depends on the surface.
 
 | Surface | Notes |
 |---|---|
-| **Marketing site & app onboarding** | Full expression of the brand: Ivory canvas, serif headlines, gold crest, aspirational but approachable photography (real people, real trips, not stock luxury clichés) |
-| **Search & booking flow** | Brand recedes in favour of clarity: Navy text on Ivory/Warm White, Gold reserved for CTAs and "Curated Pick" badges, generous white (ivory) space so results never feel like a dense list |
-| **Wallet / Group Savings ("Stokvel")** | Warmest expression of the brand; this is the emotional core of the product. Progress bars, contribution avatars and milestones can use Gold generously here to celebrate progress |
-| **Property owner dashboard & admin** | Utility-first: Navy/Ink text on Warm White cards, Gold used sparingly for status and verification badges only |
-| **Retargeting / destination ads** | Keep the calm, curated feel even in performance marketing. Avoid cluttered ad templates; let one destination or deal breathe per creative |
+| **Marketing site & onboarding** | Fullest expression: Warm Ivory canvas, serif headlines, Yana Blue highlights, aspirational but approachable photography of real people and real trips |
+| **Search & booking flow** | Brand recedes in favour of clarity: Ink on Warm Ivory and white cards, Yana Blue Deep for primary actions, generous space so results never feel like a dense list |
+| **Wallet & Group Saving** | The emotional core: Deep Tide for trust moments, Yana Blue for progress bars and milestones, destination imagery given as much weight as balances |
+| **Partner dashboard & admin** | Utility-first: Ink and Slate on white cards, Mist borders, state colours for status, blue used sparingly |
+| **Retargeting / destination ads** | Editorial, not promotional. One destination or deal per creative |
 
 ---
 
@@ -18,5 +18,5 @@ How strongly the brand is expressed depends on the surface.
 
 ```mermaid
 flowchart LR
-    A[Admin & dashboard<br/>utility-first] --> B[Search & booking<br/>clarity first] --> C[Marketing & onboarding<br/>full expression] --> D[Wallet & Stokvel<br/>warmest]
+    A[Admin & dashboard<br/>utility-first] --> B[Search & booking<br/>clarity first] --> C[Marketing & onboarding<br/>full expression] --> D[Wallet & Group Saving<br/>warmest]
 ```

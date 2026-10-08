@@ -26,7 +26,17 @@ Because the core emotional job is turning "someday" into "booked," copy should a
 
 ### Calm, not urgent
 
-Avoid countdown-timer, "only 2 rooms left" pressure tactics that feel like the cluttered sites YCHP is deliberately not.
+Avoid countdown-timer, "only 2 rooms left" pressure tactics that feel like the cluttered sites Yana is deliberately not.
+
+---
+
+### Human, not banking
+
+Plain, warm copy. No banking jargon in the wallet unless legally required.
+
+### Universal, not themed
+
+Avoid clichés about any single country, language or idea of what "Africa" looks like.
 
 ---
 

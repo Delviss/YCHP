@@ -1,8 +1,17 @@
 # Logo
 
-![YCHP logo](../assets/logo.jpg){ width="260" }
+## Yana Mark
 
-The mark is a monogram of **Y · C · H** set inside a crest, topped with a crown and finished with a small aircraft silhouette:
+!!! info "Logo pending"
+    A dedicated Yana logo has not been supplied yet. Until it is, set **Yana** as a wordmark in **Deep Tide** or **Ink**, with the endorsement line *by Your Curated Holiday Planner* beneath it in **Slate**.
+
+---
+
+## YCHP Parent Mark
+
+![YCHP logo](../assets/logo.jpg){ width="220" }
+
+The YCHP crest is the parent company mark: a monogram of **Y · C · H** inside a crest, topped with a crown and finished with a small aircraft silhouette.
 
 | Element | Meaning |
 |---|---|
@@ -10,7 +19,7 @@ The mark is a monogram of **Y · C · H** set inside a crest, topped with a crow
 | **Aircraft** | Travel |
 | **Monogram** | The personal, curated feel |
 
-Below it, the wordmark **YOUR CURATED HOLIDAY PLANNER**, with the **HOLIDAY PLANNER** tag set in tracked-out small caps.
+Its gold and ivory colours belong to the crest artwork only; they are **not** part of the Yana interface palette.
 
 ---
 
@@ -18,16 +27,15 @@ Below it, the wordmark **YOUR CURATED HOLIDAY PLANNER**, with the **HOLIDAY PLAN
 
 | Rule | Guidance |
 |---|---|
-| **Clear space** | Keep a margin around the mark equal to the height of the crown on all sides. Never let UI chrome, photography or text touch the crest |
-| **Minimum size** | The full lock-up (crest + wordmark) should not run smaller than **120px** wide on screen, or **25mm** in print. Below that, use the crest mark alone |
-| **Backgrounds** | The full-colour gold-on-ivory lock-up is the default. On dark (Navy) surfaces, use a reversed version: ivory/white crest and wordmark. Never place the gold mark on a busy photograph without a solid or scrim behind it |
+| **Clear space** | Keep a margin around the crest equal to the height of the crown on all sides |
+| **Minimum size** | The full lock-up should not run smaller than **120px** wide on screen, or **25mm** in print. Below that, use the crest alone |
+| **Backgrounds** | Use the crest on Warm Ivory or white. On Deep Tide, use a reversed ivory/white version. Never place it on a busy photograph without a solid or scrim behind it |
 
 ---
 
 ## Don't
 
 !!! danger "Logo misuse"
-    - Don't recolour the crest outside the Gold/Navy/Ivory system.
-    - Don't stretch, skew, or add drop shadows/outer glows beyond what's in the source mark.
+    - Don't recolour, stretch or skew the crest, or add drop shadows or glows.
     - Don't set the wordmark in a different typeface than the source lock-up.
     - Don't crowd the mark with competing badges, ribbons or promotional stickers.

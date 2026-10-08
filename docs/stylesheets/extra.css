@@ -1,44 +1,46 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap");
 
-/* ── Brand tokens (from the YCHP Brand Guidelines) ───────────────────────── */
+/* ── Brand tokens (from the Yana Brand Guidelines) ───────────────────────── */
 :root {
-  --ychp-gold:          #B8804A;
-  --ychp-gold-deep:     #8C5F35;   /* gold text on light — passes AA on Ivory */
-  --ychp-gold-light:    #C8975C;   /* gold on dark surfaces */
-  --ychp-navy:          #14263D;
-  --ychp-ivory:         #F5EDE0;
-  --ychp-warm-white:    #FAF6EF;
-  --ychp-ink-70:        #3E4E60;
-  --ychp-hairline:      #E4D9C6;
+  --yana-blue:          #18A6C9;   /* brand.primary */
+  --yana-blue-deep:     #0B7E99;   /* brand.primaryStrong: links/actions on white */
+  --yana-deep-tide:     #123E52;   /* brand.deep */
+  --yana-soft-blue:     #DDF4F8;   /* brand.tint */
+  --yana-sand:          #E8D8C3;   /* brand.sand */
+  --yana-warm-ivory:    #FAF8F4;   /* surface.background */
+  --yana-ink:           #19282E;   /* text.primary */
+  --yana-slate:         #66777D;   /* text.secondary */
+  --yana-mist:          #E5EBED;   /* border.default */
 
-  --brand:              var(--ychp-gold-deep);
-  --brand-dark:         var(--ychp-gold-light);
-  --brand-alpha:        rgba(184, 128, 74, 0.10);
-  --brand-alpha-mid:    rgba(184, 128, 74, 0.16);
-  --brand-border:       rgba(184, 128, 74, 0.30);
+  --brand:              var(--yana-blue-deep);
+  --brand-dark:         var(--yana-blue);
+  --brand-alpha:        rgba(24, 166, 201, 0.10);
+  --brand-alpha-mid:    rgba(24, 166, 201, 0.16);
+  --brand-border:       rgba(24, 166, 201, 0.30);
 }
 
-/* ── Accent override (replaces Material's brown) ─────────────────────────── */
-[data-md-color-accent="brown"] {
+/* ── Accent override (replaces Material's default accent) ────────────────── */
+[data-md-color-accent="cyan"] {
   --md-accent-fg-color:              var(--brand);
   --md-accent-fg-color--transparent: var(--brand-alpha);
 }
 
-/* ── Surfaces: Warm White canvas + Navy ink (light), Navy canvas (dark) ─── */
+/* ── Surfaces: white reading canvas + Ink text (light), Deep Tide (dark) ─── */
+/* White rather than Warm Ivory so Blue Deep links keep AA contrast (4.71:1). */
 [data-md-color-scheme="default"] {
-  --md-default-bg-color:      var(--ychp-warm-white);
-  --md-default-fg-color:      var(--ychp-navy);
-  --md-typeset-color:         var(--ychp-navy);
-  --md-default-fg-color--light: var(--ychp-ink-70);
-  --md-primary-fg-color:      var(--ychp-warm-white);
-  --md-primary-bg-color:      var(--ychp-navy);
-  --md-footer-bg-color:       var(--ychp-navy);
+  --md-default-bg-color:      #FFFFFF;
+  --md-default-fg-color:      var(--yana-ink);
+  --md-typeset-color:         var(--yana-ink);
+  --md-default-fg-color--light: var(--yana-slate);
+  --md-primary-fg-color:      #FFFFFF;
+  --md-primary-bg-color:      var(--yana-deep-tide);
+  --md-footer-bg-color:       var(--yana-deep-tide);
 }
 [data-md-color-scheme="slate"] {
-  --md-default-bg-color:      #0F1E31;
-  --md-primary-fg-color:      #0F1E31;
-  --md-footer-bg-color:       #0B1726;
-  --md-code-bg-color:         #16283F;
+  --md-default-bg-color:      #0B2230;
+  --md-primary-fg-color:      #0B2230;
+  --md-footer-bg-color:       #081A25;
+  --md-code-bg-color:         #123E52;
 }
 
 /* ── Link colours ─────────────────────────────────────────────────────────── */
@@ -48,7 +50,7 @@
 [data-md-color-scheme="slate"] {
   --md-typeset-a-color:  var(--brand-dark);
   --md-accent-fg-color:  var(--brand-dark);
-  --md-accent-fg-color--transparent: rgba(200, 151, 92, 0.14);
+  --md-accent-fg-color--transparent: rgba(24, 166, 201, 0.14);
 }
 
 
@@ -106,7 +108,7 @@
 }
 
 /* ╔═══════════════════════════════════════════════════════════════════════════╗
-   ║  HEADINGS — big & gold                                                  ║
+   ║  HEADINGS — big & blue                                                  ║
    ╚═══════════════════════════════════════════════════════════════════════════╝ */
 
 .md-typeset h1 {
@@ -135,7 +137,7 @@
   font-size: 0.95em;
   font-weight: 700;
   letter-spacing: -0.01em;
-  /* small gold square accent before h3 */
+  /* small blue square accent before h3 */
   display: flex;
   align-items: center;
   gap: 0.5em;
@@ -151,7 +153,7 @@
 }
 
 [data-md-color-scheme="slate"] .md-typeset h1 { color: var(--brand-dark); }
-[data-md-color-scheme="slate"] .md-typeset h2 { color: var(--brand-dark); border-bottom-color: rgba(200,151,92,0.28); }
+[data-md-color-scheme="slate"] .md-typeset h2 { color: var(--brand-dark); border-bottom-color: rgba(24,166,201,0.28); }
 [data-md-color-scheme="slate"] .md-typeset h3::before { background: var(--brand-dark); }
 
 
@@ -260,7 +262,7 @@
 
 
 /* ╔═══════════════════════════════════════════════════════════════════════════╗
-   ║  SEARCH — styled pill + gold focus ring                                 ║
+   ║  SEARCH — styled pill + blue focus ring                                 ║
    ╚═══════════════════════════════════════════════════════════════════════════╝ */
 
 .md-search__form {
@@ -308,7 +310,7 @@
 
 
 /* ╔═══════════════════════════════════════════════════════════════════════════╗
-   ║  ADMONITIONS — YCHP brand (gold)                                   ║
+   ║  ADMONITIONS — Yana brand (blue)                                   ║
    ╚═══════════════════════════════════════════════════════════════════════════╝ */
 
 /* Common shape */
@@ -487,7 +489,7 @@
 }
 
 /* ╔═══════════════════════════════════════════════════════════════════════════╗
-   ║  YCHP EXTRAS — colour swatches                                            ║
+   ║  YANA EXTRAS  — colour swatches                                            ║
    ╚═══════════════════════════════════════════════════════════════════════════╝ */
 
 .swatch {

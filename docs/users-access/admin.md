@@ -1,6 +1,6 @@
-# YCHP Admin
+# Yana Admin
 
-The YCHP team needs **control of quality, money and disputes**. The admin area gives them that, so they can run the whole operation with confidence.
+The Yana team needs **control of quality, money and disputes**. The admin area gives them that, so they can run the whole operation with confidence.
 
 ---
 

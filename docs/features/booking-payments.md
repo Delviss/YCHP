@@ -1,6 +1,6 @@
 # Booking & Payments
 
-Booking on YCHP is designed to be clear and calm, with a full summary before any money moves.
+Booking on Yana is designed to be clear and calm, with a full summary before any money moves.
 
 ---
 
@@ -19,7 +19,7 @@ Booking on YCHP is designed to be clear and calm, with a full summary before any
 | **Card** | Via Paystack |
 | **Apple Pay** | |
 | **Google Pay** | |
-| **Pay at the property** | No money passes through the platform; YCHP's commission is invoiced to the property |
+| **Pay at the property** | No money passes through the platform; Yana's commission is invoiced to the property |
 | **Pay later** | |
 | **Wallet savings** | Money saved in the [Savings Wallet](../wallet/index.md) goes toward the trip |
 
@@ -29,7 +29,7 @@ Local payment methods are supported through **Paystack**, which is already in us
 
 ## How the Money Is Split
 
-Commission is collected through an **automatic Paystack payment split** at the moment of payment. The property receives its share and YCHP's ~15–20% commission is taken automatically. This also simplifies refund processing. See [Commission & Payments](../commission.md).
+Commission is collected through an **automatic Paystack payment split** at the moment of payment. The property receives its share and Yana's ~15–20% commission is taken automatically. This also simplifies refund processing. See [Commission & Payments](../commission.md).
 
 ---
 

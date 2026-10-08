@@ -2,19 +2,22 @@
   <img src="assets/brand/logo.jpg" alt="YCHP — Your Curated Holiday Planner" width="220">
 </p>
 
-<h1 align="center">Your Curated Holiday Planner (YCHP)</h1>
+<h1 align="center">Yana</h1>
 
 <p align="center">
-  <em>YCHP turns "I could never afford that" into "I have been saving, and it is booked."</em>
+  <strong>by Your Curated Holiday Planner</strong><br>
+  <em>Curated travel. A smarter way to save for it.</em>
 </p>
 
 ---
 
-## What YCHP is
+## What Yana is
 
-YCHP is a travel booking platform that makes a great holiday feel reachable. Instead of a long, cluttered list of rooms, YCHP hand-picks stays and deals, lets people save toward a trip over time, and guides travellers from the first idea to a confirmed booking.
+Yana is a curated travel platform designed to make exceptional holidays feel achievable, not intimidating. It combines selected luxury stays and experiences with a built-in wallet that lets people save toward travel over time, on their own or together with family and friends.
 
-At launch, the heart of the platform is **hotels and other places to stay**. Around that core, YCHP adds three things ordinary booking sites don't offer together: curated (not overwhelming) choices, deals beyond the room — dining, spa, activities — and a built-in savings wallet, usable alone or as a group.
+It launches with five tabs: **Hotels · Deals · Curation · Experiences · Wallet** (personal and group saving). Flights, car hire and an AI travel assistant follow once the launch foundation is stable.
+
+> **The Yana promise:** turn "one day" into "we're going".
 
 ## Documentation
 
@@ -25,10 +28,10 @@ The documentation is a [MkDocs Material](https://squidfunk.github.io/mkdocs-mate
 | Section | Covers |
 |---|---|
 | **Home** | Overview, getting started for travellers and property owners |
-| **Platform** | Features, the Savings Wallet & Group Savings (Stokvel), users & access |
+| **Platform** | Features, the Yana Wallet & Group Saving, users & access |
 | **Trust & Safety** | Property verification, cancellations & refunds, wallet regulation, legal |
 | **Business** | Market, differentiators, commission, phases, roadmap, decisions, success metrics |
-| **Brand** | Colour, typography, logo, voice & tone, applying the brand |
+| **Brand** | Colour & tokens, UI principles, typography, logo, voice & tone, applying the brand |
 | **Development** | How we work, local setup, contributing to the docs |
 
 Two companion documents referenced throughout are maintained separately:
@@ -40,11 +43,11 @@ Two companion documents referenced throughout are maintained separately:
 
 | | |
 |---|---|
-| 🟫 **Gold** `#B8804A` | Logo, accents, badges |
-| ⬛ **Navy** `#14263D` | Text, headlines, trust |
-| ⬜ **Ivory** `#F5EDE0` | Primary background |
+| **Yana Blue** `#18A6C9` | Hero brand colour, highlights, progress |
+| **Deep Tide** `#123E52` | Navigation, headings, wallet and trust |
+| **Warm Ivory** `#FAF8F4` | Primary app background |
 
-Full palette, contrast guidance and usage rules in the [Brand › Colour Palette](docs/brand/colour.md).
+Full palette, developer tokens, contrast guidance and usage rules in the [Brand › Colour Palette](docs/brand/colour.md).
 
 ## Repository structure
 

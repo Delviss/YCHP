@@ -17,7 +17,7 @@ docs/
   brand/                 Brand
   development/           Development
   assets/                Logo and images
-  stylesheets/extra.css  YCHP theme (Gold / Navy / Ivory)
+  stylesheets/extra.css  Yana theme (Blue / Deep Tide / Warm Ivory)
 ```
 
 ---

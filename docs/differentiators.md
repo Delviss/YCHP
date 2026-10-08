@@ -1,37 +1,37 @@
-# What Makes YCHP Different
+# What Makes Yana Different
 
-Five things set YCHP apart from Booking.com, Agoda and similar sites.
+Yana sets itself apart from Booking.com, Agoda and similar sites in five ways.
 
 ---
 
 ### 1. Curated, not cluttered
 
-Every search leads to a considered set of options, not an endless list. Calm, premium look and feel, inspired by **Luxury Escapes**; deliberately avoiding the busy, crowded style of **Agoda** and **Trip.com**.
+A considered set of stays, offers and experiences rather than endless search results. Calm and premium, closer to **Luxury Escapes**; deliberately avoiding the busy style of **Agoda** and **Trip.com**.
 
-### 2. Deals beyond the hotel room
+### 2. Deals and experiences beyond the room
 
-Offers cover **dining, spa treatments and activities** as well as stays.
+Offers combine price, inclusions and timing, and **Experiences** (dining, spa, tours, activities) turn a room booking into a full trip.
 
-### 3. Save toward a trip, alone or together
+### 3. Save your way, and travel together
 
-A built-in wallet lets a traveller set money aside over time, and a group can save together toward one trip, in the spirit of a **stokvel**. A strong fit for the audience, and something mainstream sites don't offer.
+The **Yana Wallet** lets a traveller save toward a trip over time, and **Group Saving** lets friends or family save toward one trip with clear contribution targets. Both ship at launch. See [Wallet](wallet/index.md).
 
 ### 4. A guided, human feel
 
-An **AI travel assistant** (arriving shortly after launch) helps people plan, suggests curated options and answers questions, so first-time travellers never feel on their own.
+The **Curation** tab offers bespoke help from launch, and an **AI travel assistant** with user memory and preferences follows in Phase 2.
 
-### 5. Built for the region
+### 5. Built for African travellers first
 
-Local payment methods through **Paystack**, prices shown in the traveller's currency, support in **English and French** from day one.
+Paystack for payments, prices in the traveller's currency (USD and ZAR from launch), and **English and French** from day one, with global destinations.
 
 ---
 
 ## At a Glance
 
-| | Typical booking sites | YCHP |
+| | Typical booking sites | Yana |
 |---|---|---|
-| **Choice** | Endless lists | Curated shortlist |
-| **Offers** | Rooms | Rooms, dining, spa, activities |
+| **Choice** | Endless lists | Curated selection |
+| **Offers** | Rooms | Rooms, deals, dining, spa, tours, activities |
 | **Paying** | All at once | Save over time, alone or as a group |
-| **Guidance** | Self-service | Curation form and AI assistant |
+| **Guidance** | Self-service | Curation requests and, later, an AI assistant |
 | **Region** | One-size-fits-all | Paystack, local currency, English & French |

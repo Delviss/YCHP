@@ -1,21 +1,18 @@
-# Savings Wallet
+# Yana Wallet
 
-The wallet is YCHP's key differentiator: **a built-in way to save for the trip**. It turns *"I could never afford that"* into *"I have been saving, and it is booked."*
+**The wallet is not an add-on. It is one of the reasons Yana exists.**
 
----
-
-## Why a Wallet
-
-The barrier to travel isn't only money: existing sites ask people to **pay all at once** for something that feels far away. The wallet lets people save toward a trip at their own pace, alone or with family and friends.
+The wallet changes the psychology of travel from *"Can I pay for this today?"* to *"How do I get there by the time I want to go?"* It should make progress visible, group saving transparent and the eventual booking feel earned rather than impulsive.
 
 ---
 
-## What Travellers Can Do
+## Three Modes
 
-- **Save money** into a wallet over time.
-- **Check the balance** at any time.
-- Put savings toward a booking.
-- Save **alone** (Phase 1) or **as a group** (Phase 2, see [Group Savings](group-savings.md)).
+| Mode | What it does |
+|---|---|
+| **Personal Wallet** | Create a travel goal, add money over time, see the balance and understand how close the trip is |
+| **Group Saving** | Friends or family save toward one trip with clear contribution targets and visibility over each person's progress. See [Group Saving](group-savings.md) |
+| **Trip-linked goals** | Savings can be connected to a destination, hotel, deal or target amount rather than sitting as an abstract balance |
 
 ---
 
@@ -23,17 +20,18 @@ The barrier to travel isn't only money: existing sites ask people to **pay all a
 
 | Capability | Phase |
 |---|---|
-| **Individual Savings Wallet** | Phase 1 — Launch |
-| **Group Savings (Stokvel)** | Phase 2 — flagged as a strong selling point, ideally in Phase 1 |
+| **Personal Wallet** | Phase 1 — Launch |
+| **Group Saving** | Phase 1 — Launch, unless a technical or legal dependency makes this impossible |
 
 ---
 
-## Regulation and Banking Partner
+## Trust and Regulation
 
-Holding customer savings can be regulated, and group savings schemes have their own rules in some countries. YCHP is partnering with **First National Bank (FNB)**, which has an established framework for this wallet/savings model. See [Wallet Regulation](../wallet-regulation.md).
+Because the wallet may hold customer funds, it is built with a **licensed financial partner** and reviewed for each launch market. The current direction is to work with **First National Bank (FNB)** on the wallet and savings framework, while **Paystack** remains part of the payment infrastructure for bookings and commission flows. See [Wallet Regulation](../wallet-regulation.md).
 
 ---
 
-## Brand Expression
+## Design Rule
 
-The wallet is the **warmest expression of the brand**, the emotional core of the product. Progress bars, contribution avatars and milestones can use Gold generously here to celebrate progress. See [Applying the Brand](../brand/applying.md).
+!!! tip "Motivating, not internet banking"
+    The wallet should feel motivating, not like internet banking. Progress, destination imagery and trip milestones should carry as much visual weight as balances. Wallet states celebrate momentum **without gamifying people's finances**. See [Applying the Brand](../brand/applying.md).

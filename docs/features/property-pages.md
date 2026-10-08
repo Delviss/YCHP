@@ -21,7 +21,7 @@ Opening a result leads to a property page that gives a traveller everything need
 
 ## Verification Badge
 
-Properties are verified by the YCHP team before they go live and carry a verification badge. See [Property Verification](../trust-verification.md).
+Properties are verified by the Yana team before they go live and carry a verification badge. See [Property Verification](../trust-verification.md).
 
 ---
 

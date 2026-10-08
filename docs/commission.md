@@ -7,9 +7,9 @@
 !!! note "Agreed"
     Commission is collected through an **automatic payment split through Paystack** at the moment of payment.
 
-| Booking type | How YCHP's commission is collected |
+| Booking type | How Yana's commission is collected |
 |---|---|
-| **Paid on the platform** | Paystack splits the payment: the property receives its share and YCHP's **~15–20%** commission is taken automatically |
+| **Paid on the platform** | Paystack splits the payment: the property receives its share and Yana's **~15–20%** commission is taken automatically |
 | **Pay at the property** | No money passes through the platform, so the commission is **invoiced to the property** |
 
 The split also **simplifies refund processing**.
